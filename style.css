@@ -1,0 +1,172 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+    box-shadow: 5px 5px 10px 10px red;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px;
+    margin-bottom: 20px;
+}
+
+.button {
+    background-image: linear-gradient(lightblue,blue);
+    color: black;
+    text-decoration: none;
+    padding: 15px;
+    font-size: 24px;
+    border-radius: 10px;
+    display: block;
+}
+
+nav {
+    border-top: 5px solid white;
+    border-bottom: 5px solid white;
+    padding: 25px 100px 25px 95px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-link {
+    font-size: 24px;
+    color: white;
+    text-decoration: none;
+    display: block;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    font-size: 36px;
+    margin-top: 45px;
+    margin-bottom: 40px;
+}
+
+.post-text {
+    font-size: 24px;
+}
+
+.info {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1100px;
+    margin: 0 auto;
+}
+
+.post {
+    background-color: white;
+    padding: 15px 45px 30px 45px;
+    width: 400px;
+    margin: 20px;
+    position: relative;
+}
+
+.article-but {
+    text-decoration: none;
+    background-color: #133aac;
+    color: white;
+    font-size: 24px;
+    text-align: center;
+    padding: 10px 75px 10px 75px;
+    display: block;
+}
+
+.full-image {
+    margin: 100px 0px 100px 0px;
+}
+
+.social {
+    display: block;
+    width: 30px;
+}
+
+footer {
+    background-color: red;
+    box-shadow: 5px 5px 20px 10px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 30px 30px 20px 45px;
+}
+
+.footer-text {
+    font-size: 24px;
+    margin-right: 30px;
+}
+
+.footer-text span {
+    color: #850AE5;
+    font-weight: bolder;
+}
+
+.socials {
+    position: fixed;
+    top: 190px;
+    background-color: blueviolet;
+    width: 90px;
+    right: 0px;
+    border-radius: 5px;
+    bottom: 100px;
+}
+
+.post:hover {
+    color: white;
+    background-color: aqua;
+
+}
+
+.article-but:hover {
+    border: 3px solid blue;
+    background-color: white;
+    color: blue;
+    transition: 2s linear;
+}
+
+.button:hover {
+}
+
+.nav-link:hover {
+    margin: 3px;
+    color: blue;
+}
+
+.social:hover {
+    border-bottom: 2px double orange;
+    margin-bottom: 10px;
+}
+
+.social {
+    margin-right: 25px;
+    margin-left: 25px;
+    margin-top: 5px;
+}
+
+.post:hover {
+    box-shadow:inset 10px 10px 10px 10px  blueviolet;
+    background-color: white;
+    color: black;
+}
+
+.post-text {
+    background-image: linear-gradient(to right bottom, gold, coral, gold);
+} 
+
+main h1:hover {
+    transform: scale(1.5);
+    transition: 2.5s ease-in;
+    padding: 20px;
+}
+
+.social img:hover {
+    transform: scale(1.5);
+    transition: 2.5s ease-in;
+    padding: 5px;
+}
+
+.button:hover {
+    background-image: linear-gradient(red,orange,blue);
+    transition: 5s background-image linear;
+}
